@@ -32,4 +32,8 @@ public class SceneChanger : MonoBehaviour
     {
         SceneManager.LoadScene("TestGAD7Scene");
     }
+    public void MoveAraniaScene()
+    {
+        SceneManager.LoadScene("AraniaScene");
+    }
 }
