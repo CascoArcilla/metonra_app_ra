@@ -12,4 +12,28 @@ public class SceneChanger : MonoBehaviour
     {
         SceneManager.LoadScene("TestScene");
     }
+    public void MoveMenuScene()
+    {
+        SceneManager.LoadScene("MenuScene");
+    }
+    public void MoveBienvenidaScene()
+    {
+        SceneManager.LoadScene("BienvenidaScene");
+    }
+    public void MoveLoginScene()
+    {
+        SceneManager.LoadScene("LoginScene");
+    }
+    public void MoveRegistrarseScene()
+    {
+        SceneManager.LoadScene("RegistrarseScene");
+    }
+    public void MoveTestGAD7Scene()
+    {
+        SceneManager.LoadScene("TestGAD7Scene");
+    }
+    public void MoveAraniaScene()
+    {
+        SceneManager.LoadScene("AraniaScene");
+    }
 }
